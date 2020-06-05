@@ -1,4 +1,4 @@
-// declare variable for products.json
+// declare const for JSON file url
 const url = 'https://comfortup.com/products.json';
 
 // request JSON file and load the data
@@ -12,3 +12,6 @@ request.onload = function () {
 	const productData = request.response;
 	populateInfo(productData);
 };
+
+// declare const for div that will contain product info
+const div = document.querySelector('#product-card');
