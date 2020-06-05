@@ -48,5 +48,9 @@ function populateInfo(jsonObj) {
 			.join(', ');
 		tags.textContent = 'Tags: ' + formattedTags;
 		productInfoDiv.appendChild(tags);
+
+		const viewButton = document.createElement('button');
+		viewButton.textContent = 'View Details';
+		productInfoDiv.appendChild(viewButton);
 	}
 }
