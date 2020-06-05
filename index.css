@@ -1,0 +1,22 @@
+body {
+	margin: 0;
+	padding: 0 0 75px 0;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #f1f1f3;
+	font-family: 'Helvetica', 'Trebuchet MS', 'Lucida Sans Unicode',
+		'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: #272728;
+	font-size: 16px;
+	letter-spacing: 0.1rem;
+}
+
+/* page header styling */
+h1 {
+	padding: 25px 0 50px;
+	color: #1b80b6;
+	font-size: 3rem;
+	font-weight: bold;
+}
